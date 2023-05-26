@@ -1,0 +1,34 @@
+.Footer{
+    height: 7rem;
+    background-color: black;
+    width: 100%;
+    margin-left: -1.5rem;
+
+    color: rgb(134, 130, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.fotter-icon{
+    scale: 1.5;
+}
+
+.fotter-icon:hover{
+    scale: 1.6;
+    color: rgb(185, 182, 182);
+}
+
+.footer-item>:nth-child(3){
+    scale: 2;
+}
+.footer-item>:nth-child(3):hover{
+    scale: 2.1;
+}
